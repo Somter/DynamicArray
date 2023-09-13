@@ -94,7 +94,7 @@ DynamicArray::~DynamicArray()
 void DynamicArray::Input()
 {
 	for (int i = 0; i < size; i++)
-	{
+	{ 
 		ptr[i] = rand() % 20;
 	}
 }
